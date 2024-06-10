@@ -37,6 +37,23 @@ app.use('/general', generalRoutes);
 app.use('/management', managementRoutes);
 app.use('/sales', salesRoutes);
 
+app.get("/", (req,res)=>{
+  res.send("API WORKING")
+})
+
+app.use(cors({
+
+
+  origin:["http://localhost:5001",
+
+  "https://mnrx-mern-admin-dashboard-client-app.onrender.com",
+]
+
+
+}))
+
+app.use(express.urlencoded({extended:false}))
+
 /* DATABASE CONNECTION */
 const startServer = async () => {
   try {
