@@ -2,7 +2,7 @@
 
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-import Transaction from '../../models/Transaction';
+import Transaction from '../../models/Transaction.ts';
 
 // Load environment variables from .env file
 dotenv.config();

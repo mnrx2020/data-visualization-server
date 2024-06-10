@@ -1,7 +1,7 @@
 import express from 'express';
 import request from 'supertest';
-import router from '../../routes/sales';
-import { getSales } from '../../controllers/sales';
+import router from '../../routes/sales.ts';
+import { getSales } from '../../controllers/sales.ts';
 
 jest.mock('../../controllers/sales');
 

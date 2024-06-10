@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import mongoose from "mongoose";
-import User from "../models/User";
-import Transaction from "../models/Transaction";
+import User from "../models/User.ts";
+import Transaction from "../models/Transaction.ts";
 
 export const getAdmins = async (req: Request, res: Response) => {
   try {

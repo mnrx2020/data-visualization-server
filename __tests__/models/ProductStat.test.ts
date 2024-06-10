@@ -2,7 +2,7 @@
 
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-import ProductStat from '../../models/ProductStat';
+import ProductStat from '../../models/ProductStat.ts';
 
 // Load environment variables from .env file
 dotenv.config();

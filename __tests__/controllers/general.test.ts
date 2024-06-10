@@ -1,7 +1,7 @@
-import { getUser, getDashboardStats } from "../../controllers/general";
-import User from "../../models/User";
-import OverallStat from "../../models/OverallStat";
-import Transaction from "../../models/Transaction";
+import { getUser, getDashboardStats } from "../../controllers/general.ts";
+import User from "../../models/User.ts";
+import OverallStat from "../../models/OverallStat.ts";
+import Transaction from "../../models/Transaction.ts";
 import { Request, Response } from "express";
 
 // Mock utility functions for request and response

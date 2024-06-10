@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import { getSales } from '../../controllers/sales';
-import OverallStat from '../../models/OverallStat';
+import { getSales } from '../../controllers/sales.ts';
+import OverallStat from '../../models/OverallStat.ts';
 
 jest.mock('../../models/OverallStat');
 

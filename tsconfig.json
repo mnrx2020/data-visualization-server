@@ -1,12 +1,20 @@
 {
   "compilerOptions": {
     "target": "ES6",
-    "module": "CommonJS",
+    "module": "NodeNext",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "typeRoots": ["./types", "./node_modules/@types"]
+    "typeRoots": ["./types", "./node_modules/@types"],
+    "outDir": "./dist",
+    "moduleResolution": "NodeNext",
+    "allowImportingTsExtensions": true,
+    "noEmit": true
   },
-  "include": ["**/*.ts", "**/*.tsx", "__tests__/**/*.test.ts", "__tests__/**/*.test.tsx"],
-  "exclude": ["node_modules"]
+  "ts-node": {
+    "esm": true,
+    "transpileOnly": true
+  },
+  "include": ["**/*.ts","**/*.js", "**/*.tsx", "__tests__/**/*.test.ts", "__tests__/**/*.test.tsx", "index.ts", "config/db.ts","dist/index.js","dist/config/db.js"],
+  "exclude": ["node_modules","dist"]
 }

@@ -2,9 +2,9 @@
 
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-import AffiliateStat from '../../models/AffiliateStat';
-import User from '../../models/User';
-import Transaction from '../../models/Transaction';
+import AffiliateStat from '../../models/AffiliateStat.ts';
+import User from '../../models/User.ts';
+import Transaction from '../../models/Transaction.ts';
 
 // Load environment variables from .env file
 dotenv.config();

@@ -1,16 +1,16 @@
 import request from 'supertest';
 import express from 'express';
-import { getProducts, getCustomers, getTransactions, getGeography } from '../../controllers/client';
-import Product from '../../models/Product';
-import ProductStat from '../../models/ProductStat';
-import User from '../../models/User';
-import Transaction from '../../models/Transaction';
+import { getProducts, getCustomers, getTransactions, getGeography } from '../../controllers/client.ts';
+import Product from '../../models/Product.ts';
+import ProductStat from '../../models/ProductStat.ts';
+import User from '../../models/User.ts';
+import Transaction from '../../models/Transaction.ts';
 import getCountryIso3 from 'country-iso-2-to-3';
 
-jest.mock('../../models/Product');
-jest.mock('../../models/ProductStat');
-jest.mock('../../models/User');
-jest.mock('../../models/Transaction');
+jest.mock('../../models/Product.ts');
+jest.mock('../../models/ProductStat.ts');
+jest.mock('../../models/User.ts');
+jest.mock('../../models/Transaction.ts');
 jest.mock('country-iso-2-to-3');
 
 const app = express();

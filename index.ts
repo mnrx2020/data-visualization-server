@@ -4,20 +4,20 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import helmet from 'helmet';
 import morgan from 'morgan';
-import connectDB from './config/db';
-import clientRoutes from './routes/client';
-import generalRoutes from './routes/general';
-import managementRoutes from './routes/management';
-import salesRoutes from './routes/sales';
+import connectDB from './config/db.js';
+import clientRoutes from './routes/client.js';
+import generalRoutes from './routes/general.js';
+import managementRoutes from './routes/management.js';
+import salesRoutes from './routes/sales.js';
 
 // Data imports
-import User from './models/User';
-import Product from './models/Product';
-import ProductStat from './models/ProductStat';
-import Transaction from './models/Transaction';
-import OverallStat from './models/OverallStat';
-import AffiliateStat from './models/AffiliateStat';
-import { dataUser, dataProduct, dataProductStat, dataTransaction, dataOverallStat, dataAffiliateStat } from './data';
+import User from './models/User.js';
+import Product from './models/Product.js';
+import ProductStat from './models/ProductStat.js';
+import Transaction from './models/Transaction.js';
+import OverallStat from './models/OverallStat.js';
+import AffiliateStat from './models/AffiliateStat.js';
+import { dataUser, dataProduct, dataProductStat, dataTransaction, dataOverallStat, dataAffiliateStat } from './data/index.js';
 
 /* CONFIGURATION */
 dotenv.config();

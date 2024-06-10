@@ -2,13 +2,13 @@
   "name": "server",
   "version": "1.0.0",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
+    "build": "tsc --outDir dist",
+    "start": "npm run build && node dist/index.js",
+    "dev": "nodemon --exec \"npx ts-node --transpile-only --experimental-specifier-resolution=node dist/index.js\"",
     "test": "cross-env NODE_ENV=test jest",
-    "test:watch": "jest --watch",
-    "start": "node index.ts",
-    "dev": "nodemon index.ts",
-    "build": "tsc"
+    "test:watch": "jest --watch"
   },
   "keywords": [],
   "author": "",

@@ -1,8 +1,8 @@
 import { Request, Response } from 'express';
 import mongoose from 'mongoose';
-import User from '../../models/User';
-import Transaction from '../../models/Transaction';
-import { getAdmins, getUserPerformance } from '../../controllers/management'; // Ensure the correct module is imported
+import User from '../../models/User.ts';
+import Transaction from '../../models/Transaction.ts';
+import { getAdmins, getUserPerformance } from '../../controllers/management.ts'; // Ensure the correct module is imported
 
 jest.mock('../../models/User');
 jest.mock('../../models/Transaction');

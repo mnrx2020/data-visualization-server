@@ -2,7 +2,7 @@
 
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-import User from '../../models/User';
+import User from '../../models/User.ts';
 
 // Load environment variables from .env file
 dotenv.config();

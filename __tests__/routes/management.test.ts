@@ -1,7 +1,7 @@
 import express from 'express';
 import request from 'supertest';
-import router from '../../routes/management';
-import { getAdmins, getUserPerformance } from '../../controllers/management';
+import router from '../../routes/management.ts';
+import { getAdmins, getUserPerformance } from '../../controllers/management.ts';
 
 jest.mock('../../controllers/management');
 

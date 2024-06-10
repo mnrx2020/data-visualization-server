@@ -1,5 +1,5 @@
 import express, { Request, Response } from "express";
-import { getAdmins, getUserPerformance } from "../controllers/management";
+import { getAdmins, getUserPerformance } from "../controllers/management.ts";
 
 const router = express.Router();
 

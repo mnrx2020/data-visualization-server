@@ -1,7 +1,7 @@
 import request from "supertest";
 import express from "express";
-import router from "../../routes/general";
-import { getUser, getDashboardStats } from "../../controllers/general";
+import router from "../../routes/general.ts";
+import { getUser, getDashboardStats } from "../../controllers/general.ts";
 
 jest.mock("../../controllers/general", () => ({
   getUser: jest.fn((req, res) => res.status(200).json({ id: req.params.id, name: "Test User" })),

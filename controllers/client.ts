@@ -1,8 +1,8 @@
 import { Request, Response } from "express";
-import Product from "../models/Product";
-import ProductStat from "../models/ProductStat";
-import User from "../models/User";
-import Transaction from "../models/Transaction";
+import Product from "../models/Product.ts";
+import ProductStat from "../models/ProductStat.ts";
+import User from "../models/User.ts";
+import Transaction from "../models/Transaction.ts";
 import getCountryIso3 from "country-iso-2-to-3";
 
 interface SortOptions {

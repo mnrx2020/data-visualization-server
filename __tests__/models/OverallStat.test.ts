@@ -1,7 +1,7 @@
 // __tests__/models/OverallStat.test.ts
 
 import mongoose from 'mongoose';
-import OverallStat from '../../models/OverallStat';
+import OverallStat from '../../models/OverallStat.ts';
 import dotenv from 'dotenv';
 
 // Load environment variables from .env file

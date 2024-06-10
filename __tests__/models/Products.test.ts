@@ -2,7 +2,7 @@
 
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-import Product from '../../models/Product'; // Ensure this matches the exact file name
+import Product from '../../models/Product.ts'; // Ensure this matches the exact file name
 
 // Load environment variables from .env file
 dotenv.config();

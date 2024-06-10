@@ -1,8 +1,8 @@
 // __tests__/routes/client.test.ts
 import request from "supertest";
 import express from "express";
-import router from "../../routes/client";
-import { getProducts, getCustomers, getTransactions, getGeography } from "../../controllers/client";
+import router from "../../routes/client.ts";
+import { getProducts, getCustomers, getTransactions, getGeography } from "../../controllers/client.ts";
 
 // Mocking controller functions
 jest.mock("../../controllers/client", () => ({

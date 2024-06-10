@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import OverallStat from "../models/OverallStat";
+import OverallStat from "../models/OverallStat.ts";
 
 export const getSales = async (req: Request, res: Response) => {
   try {

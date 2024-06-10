@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
-import User from "../models/User";
-import OverallStat from "../models/OverallStat";
-import Transaction from "../models/Transaction";
+import User from "../models/User.ts";
+import OverallStat from "../models/OverallStat.ts";
+import Transaction from "../models/Transaction.ts";
 
 export const getUser = async (req: Request, res: Response) => {
   try {
