@@ -15,6 +15,6 @@
     "esm": true,
     "transpileOnly": true
   },
-  "include": ["**/*.ts","**/*.js", "**/*.tsx", "__tests__/**/*.test.ts", "__tests__/**/*.test.tsx", "index.ts", "config/db.ts","dist/index.js","dist/config/db.js"],
+  "include": ["**/*.ts","**/*.js", "**/*.tsx", "__tests__/**/*.test.ts", "__tests__/**/*.test.tsx", "index.ts", "config/db.ts","dist/index.js","dist/config/db.js", "jest.config.cjs"],
   "exclude": ["node_modules","dist"]
 }
