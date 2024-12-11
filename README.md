@@ -61,23 +61,21 @@ npm test
 Ensure the test database is configured in your .env file to avoid overwriting production data.
 
 ### API Endpoints
+
 The following endpoints are available for interacting with the backend:
 
-Method	Endpoint	Description
-GET	/api/data	Fetches data
-POST	/api/data	Adds new data
-PUT	/api/data/:id	Updates specific data
-DELETE	/api/data/:id	Deletes specific data
+| Method | Endpoint         | Description           |
+|--------|------------------|-----------------------|
+| GET    | `/api/data`      | Fetches data          |
+| POST   | `/api/data`      | Adds new data         |
+| PUT    | `/api/data/:id`  | Updates specific data |
+| DELETE | `/api/data/:id`  | Deletes specific data |
+
 
 ### Folder Structure
 
-admin_dashboard_server/
+The project is organized as follows:
 
-├── controllers/  # Business logic for API endpoints
-├── models/       # Mongoose schemas and models
-├── routes/       # API routes
-├── data/         # Sample data (if applicable)
-├── tests/        # Automated test cases
-├── index.js      # Entry point of the application
-└── package.json  # Project metadata and dependencies
 
+
+data-visualization-server/ ├── controllers/ # Contains the business logic for API endpoints ├── models/ # Mongoose schemas and database models ├── routes/ # Defines API routes for handling HTTP requests ├── tests/ # Automated test cases for backend functionalities ├── utils/ # Utility functions used throughout the project ├── data/ # Sample data or seed files ├── config/ # Configuration files (e.g., database or environment settings) ├── .env # Environment variables file (not included in version control) ├── .gitignore # Lists files and directories to be ignored by Git ├── index.js # Entry point of the application └── package.json # Contains project metadata and dependencies
