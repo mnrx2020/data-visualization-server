@@ -6,19 +6,26 @@ This repository contains the backend of the Admin Dashboard project, built using
 ### Features
 
 
-RESTful API endpoints for data management.
-MongoDB integration for secure and efficient data storage.
-Modular architecture for controllers, routes, and models.
-Comprehensive support for data visualization tasks.
-Automated tests for key functionalities.
+- RESTful API endpoints for data management.
+
+- MongoDB integration for secure and efficient data storage.
+
+- Modular architecture for controllers, routes, and models.
+
+- Comprehensive support for data visualization tasks.
+- Automated tests for key functionalities.
 
 ### Tech Stack
 
-Backend Framework: Express.js
-Database: MongoDB
-Language: JavaScript
-Testing Framework: Jest
-Other Tools: Mongoose (ODM)
+- Backend Framework: Express.js
+
+- Database: MongoDB
+
+- Language: JavaScript
+
+- Testing Framework: Jest
+
+- Other Tools: Mongoose (ODM)
 
 ### Getting Started
 
@@ -48,7 +55,9 @@ The server will run on http://localhost:5000 by default.
 
 ### Running Tests
 Automated tests are available to validate the server's functionality. To run the tests, execute:
+
 npm test
+
 Ensure the test database is configured in your .env file to avoid overwriting production data.
 
 ### API Endpoints
