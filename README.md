@@ -1,7 +1,11 @@
 Admin Dashboard Server
+
+
 This repository contains the backend of the Admin Dashboard project, built using TypeScript and Express.js to support robust API endpoints for data visualization and management. The frontend, developed with React, Material-UI, and TypeScript, seamlessly integrates with this backend to provide a powerful admin interface.
 
 Features
+
+
 RESTful API endpoints for data management.
 MongoDB integration for secure and efficient data storage.
 Modular architecture for controllers, routes, and models.
@@ -9,6 +13,7 @@ Comprehensive support for data visualization tasks.
 Automated tests for key functionalities.
 
 Tech Stack
+
 Backend Framework: Express.js
 Database: MongoDB
 Language: JavaScript
@@ -16,7 +21,9 @@ Testing Framework: Jest
 Other Tools: Mongoose (ODM)
 
 Getting Started
+
 Prerequisites
+
 Ensure you have the following installed:
 
 Node.js
@@ -54,7 +61,9 @@ PUT	/api/data/:id	Updates specific data
 DELETE	/api/data/:id	Deletes specific data
 
 Folder Structure
+
 admin_dashboard_server/
+
 ├── controllers/  # Business logic for API endpoints
 ├── models/       # Mongoose schemas and models
 ├── routes/       # API routes
