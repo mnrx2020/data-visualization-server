@@ -79,3 +79,9 @@ The project is organized as follows:
 
 
 data-visualization-server/ ├── controllers/ # Contains the business logic for API endpoints ├── models/ # Mongoose schemas and database models ├── routes/ # Defines API routes for handling HTTP requests ├── tests/ # Automated test cases for backend functionalities ├── utils/ # Utility functions used throughout the project ├── data/ # Sample data or seed files ├── config/ # Configuration files (e.g., database or environment settings) ├── .env # Environment variables file (not included in version control) ├── .gitignore # Lists files and directories to be ignored by Git ├── index.js # Entry point of the application └── package.json # Contains project metadata and dependencies
+
+
+### Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+
