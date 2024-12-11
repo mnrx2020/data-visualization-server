@@ -1,4 +1,4 @@
-## ### Admin Dashboard Server
+# Admin Dashboard Server
 
 
 This repository contains the backend of the Admin Dashboard project, built using TypeScript and Express.js to support robust API endpoints for data visualization and management. The frontend, developed with ReactJS, Material-UI, and TypeScript, seamlessly integrates with this backend to provide a powerful admin interface.
